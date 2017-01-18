@@ -1,0 +1,345 @@
+/*男生     女生     潮童      创意生活*/
+.girls{width:100%;height:102px;overflow:hidden;}
+.girls ul li{float:left;margin-left:35px;margin-top:60px;}
+.girls ul li a{display:block;text-align: center;font-size:16px;}
+.girls ul li a p{font-size:12px;color:#666;}
+
+#boys{margin-left:66px;}
+#girls{display:block;width:64px;height:42px;background:#ff88ae;color:white;
+margin:0 -13px;vertical-align: middle;}
+#girls p{color:white;}
+
+
+/*大字*/
+
+#buy{
+	display:block;float:left;font-size:35px;font-weight:bolder;
+	font-style: italic;margin:27px 0 0 100px;
+	
+}
+
+/*搜索框*/
+#search{
+	width:322px;height:29px;background:url(../images/8.png) no-repeat right;
+	border:none;border:1px solid #ff88ae;padding-left:10px;margin:46px 0 0 57px; 
+}
+
+
+/*购物车*/
+#cart img{margin-left:24px;margin-bottom:-10px;}
+#cart1{
+	display:block;width:436px;height:537px;background:#f8f8f8;position:absolute;
+	right:54px;top:156px;display:none;z-index: 9;
+	}
+#cart1 img{margin:152px 0 0 140px;}
+#cart1 p{font-size:14px;font-weight: bold;text-align: center;padding-top:16px;}
+
+
+/*主导航栏*/
+#navigate{
+	width:100%;height:45px;background:#ff88ae;
+}
+#navigate ul li{float:left;margin-left:65px;line-height:45px;}
+#navigate ul li a{color:white;font-size:14px;padding-bottom: 1px;}
+#navigate ul li a:hover{border-bottom: 2px solid white;}
+
+/*服饰的下拉菜单*/
+#navigate ul #clothes{
+	display:block;width:100%;height:412px;background:#f8f8f8;position:absolute;
+	left:0;top:224px;display:none;z-index:10;
+}
+
+#navigate .clothes1{
+	display:block;height:85%;padding-right:40px;
+	border-right:1px solid #ccc;float:left;margin-top:3%;
+}
+#navigate .clothes1 .li5{
+	width:183px;border-bottom:1px solid #000;margin-bottom: 10px;
+	margin-top:-10px;
+	}
+	
+#navigate .clothes1 .li6{
+	margin-top:10px;width:183px;border-bottom:1px solid #000;
+	}
+	
+#navigate .clothes1 ul li{clear:both;}
+#navigate .clothes1 ul li a{display:block;color:#a1a1a1;line-height:35px;}
+#navigate .clothes1 ul li .red{color:#ee0011;}
+#navigate .clothes1 ul li a:hover{border:none;}
+#navigate .clothes1 ul li a:hover{
+	text-decoration: underline;
+}
+#navigate .clothes2 {margin-left:-20px;}
+#navigate .clothes3 {border-right:none;}
+#navigate .clothes1 .li7{
+	margin-top:10px;
+	}
+#navigate .clothes4 img{width:300px;float:left;margin:30px 15px 52px 0;}
+#navigate .clothes4 p{text-align: center;}
+
+
+/*鞋履的下拉菜单*/
+#navigate ul #shoes{
+	display:block;width:100%;height:412px;background:#f8f8f8;position:absolute;
+	left:0;top:224px;z-index:10;display:none;
+}
+
+#navigate .clothes5 img{width:300px;margin:30px 15px 52px 0px;}
+#navigate ul #shoes .shoes{margin-right:350px;}
+#navigate .clothes5 p{text-align: center;}
+
+/*包袋的下拉菜单*/
+#navigate ul #bags{
+	display:block;width:100%;height:412px;background:#f8f8f8;position:absolute;
+	left:0;top:224px;z-index:10;display:none;
+}
+
+#navigate .bags img{width:300px;margin:30px 15px 52px 0px;}
+#navigate .bag{margin-right:80px;}
+#navigate .bags p{text-align: center;}
+
+/*配饰-其他的下拉列表*/
+#navigate ul #peishi{
+	display:block;width:100%;height:412px;background:#f8f8f8;position:absolute;
+	left:0;top:224px;z-index:10;display:none;
+}
+
+#navigate .peishi img{width:300px;margin:30px 15px 52px 0px;}
+#navigate .peishis{margin-right:120px;}
+#navigate .peishi p{text-align: center;}
+
+
+/*banner轮播图一*/
+#lunbo{
+	width:90%;position:relative;height:388px;margin:5px auto;overflow: hidden;
+	}
+#lunbo ul li{
+	width:100%;position:absolute;left:0;top:0;height:388px;overflow:hidden;
+	cursor: pointer;
+	}
+#lunbo ul li a{ 
+	display:block; width:100%; height:100%; 
+	position:absolute; 
+	top:0px; left:0px; opacity:0.3; display:none;
+	}
+	
+#lunbo ul li:nth-child(1) a{opacity:1; display:block;z-index:10;}
+#lunbo ul li a img{ border:none; float:left;width:100%;height:100%;}
+
+#btn{width:160px; height:30px; overflow:hidden; text-align:center;
+		position:absolute;bottom:20px; left:450px;}
+#btn span{ display:block; width:15px; height:15px; line-height:20px;
+		font-size:13px; color:#fff; background-color:white; 
+		float:left;margin:5px 0px auto 5px;
+		border-radius:50%; text-align:center;border:1px solid #ccc;
+	}
+
+#arrow{
+	width:100%; height:50px; overflow:hidden; position:absolute;
+	top:160px; left:0px;
+}
+#arrow div{
+	width:100%; height:100%; position:relative;
+}
+#arrow div span{ display:block; width:50px; height:50px; overflow:hidden; color:#555;
+	background-color:#fff;opacity: 0.3; position:absolute; top:0px; line-height:50px; 
+	text-align:center;
+	font-size:30px;
+	z-index:9;
+	
+}
+#arrow span.left{ left:0px;}
+#arrow span.right{ right:0px;}
+
+
+/*优选品牌无缝滚动*/
+#BRAND{
+	width:90%;height:763px;margin:0px auto;overflow: hidden;
+	position:relative;
+}
+#BRAND p{
+	font-size:14px;border:1px solid #000;margin:0px auto;
+	margin-top:50px;
+	padding:9px 90px;width:200px;text-align: center;}
+#BRAND #brand{
+	width:100%;height:480px;background:#8ae6e0;position:relative;
+	margin-top:30px;
+}
+#BRAND #brand1{
+	width:900px;
+	height:369px;
+	position: absolute;
+	top:70px;left:69px;
+	overflow: hidden;
+}
+#BRAND ul{
+	position:absolute;
+	width:2700px;
+	height:369px;
+}
+#BRAND #brand ul li{
+	width:890px;
+	height:480px;
+	float: left;
+	padding-left:10px;
+	}
+
+		
+#BRAND #brand ul li a img{width:290px;height:369px;}
+#BRAND #brand ul li a:hover img{opacity: 0.8;}
+
+#arrow1 div span{ 
+	display:block; 
+	overflow:hidden; color:#fff;
+	position:absolute; top:200px; 
+	text-align:center;
+	font-size:40px;
+	z-index:10;
+	
+}
+#arrow1  #left1{ left:20px;}
+#arrow1 #right1{ right:20px;}
+
+
+//优选品牌brand  商标淡入淡出
+#brandDown #bD-left{
+	width:870px;height:170px;position:relative;
+}
+
+#BRAND #bD-left1{
+	width:870px;
+	height:170px;
+	position: absolute;
+	top:601px;left:0px;
+	overflow: hidden;
+	float:left;
+	
+}
+
+#brandDown #bD-left1 ul{
+	position:absolute;
+	width:870px;
+	height:159px;
+}
+#brandDown #bD-left1 ul li{
+	position:absolute;
+	left:0;top:0;
+	width:870px;
+	height:170px;
+	float: left;
+	}
+
+#brandDown #bD-left1 ul li a img{
+	width:159px;height:71px;padding:8px 12px 0 0;
+}
+
+
+#BRAND #bD-right{
+	float:right;height:170px;width:163px;position:relative;
+}
+
+#BRAND #bD-right ul .li1{
+	background:url(../images/logo-brand-line.png) no-repeat 30px 20px;
+	width:159px;height:71px;	
+	
+}
+#BRAND #bD-right ul #a1{
+	display: block;position: absolute;font-size: 40px;left:40px;top:10px;
+}
+
+#BRAND #bD-right ul #a2{
+	display: block;position: absolute;font-size: 40px;left:100px;top:30px;
+}
+
+#BRAND #bD-right ul .li2{
+	width:159px;height:71px;
+	margin-top:	30px;
+	
+}
+
+#BRAND #bD-right ul .li2 a{
+	display:block;text-align: center;line-height:71px;font-size: 15px;
+}
+
+#BRAND #bD-right ul .li2 a:hover{
+	text-decoration: underline;
+}
+
+
+/*潮流时装*/
+#trend{
+	width:90%;height:545px;margin:0px auto;overflow: hidden;
+	position:relative;
+}
+
+#trend p{
+	font-size:14px;border:1px solid #000;margin:0px auto;
+	margin-top:50px;
+	padding:9px 90px;width:200px;text-align: center;
+	}
+	
+#trend .more{
+	display:block;text-align:right;margin-top:-20px;
+	color:#333333;
+}
+
+#trend .more:hover{text-decoration: underline;}
+
+#trend #trendLeft{
+	width:170px;height:431px;float:left;
+	margin-top:30px;
+}
+
+#trend #trendLeft img{
+	width:170px;height:66px;padding-bottom: 3px;
+}
+
+#trend .trend {
+	display:block;height:214px;background:#f8f8f8;
+}
+
+#trend .trend ul li{
+	line-height:30px;
+}
+
+#trend .trend ul li:nth-child(1){
+	padding-top:10px;
+}
+
+#trend .trend ul li a{
+	display:inline-block;line-height:33px;padding-left:15px;text-align:center;
+	width:55px;
+}
+
+#trend #trendCenter{
+	width:330px;height:431px;float:left;
+	margin-top:30px;margin-left:10px;
+}
+
+#trend #trendCenter img{
+	width:330px;height:432px;
+}
+
+#trend #trendCenter img:hover{opacity: 0.8;}
+
+#trend #trendRight{
+	width:523px;height:431px;float:left;
+	margin-top:30px;-left:10px;
+}
+
+#trend #trendRight img{
+	width:164px;height:212px;margin-left:10px;margin-bottom: 5px;
+}
+
+#trend #trendRight ul li{
+	float:left;
+}
+#trend #trendRight ul img:nth-child(3){
+	margin-right:0;
+}
+
+#trend #trendRight ul img:hover{
+	opacity: 0.8;
+}
+
+
